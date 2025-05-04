@@ -1,6 +1,6 @@
-const Title = ({children}) => {
+const Title = ({children,addClass}) => {
   return (
-     <div>{children}</div>
+     <div className={`${addClass} font-dancing font-bold`}>{children}</div>
   )
 }
 
