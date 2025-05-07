@@ -1,6 +1,10 @@
+import Carousel from "@/components/ui/Carousel"
+
 const Index = () => {
   return (
-    <div></div>
+    <div>
+      <Carousel/>
+    </div>
   )
 }
 
